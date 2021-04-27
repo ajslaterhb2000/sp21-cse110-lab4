@@ -1,11 +1,15 @@
-#Part1a
+# Part1a
 1)num1 +num2 is printed because that is what happens in the if block containing add
+
 2)num1+num2 because result has funciton scope it doesn't return an error even though it is techincally in the add block
+
 3) Would compile but because of line 13 the code doesn't run.
+
 4) Doesn't compile because it is out of scope of the if block where the variable is declared. 
+   
 5) Doesn't compile because of the fac that it is a const and that const stops result from being reassigned which casues and error.
 6) same resason 
-#Part1b
+# Part1b
 1) 3 will be printed because that is the last value that i holds.
 2) 150.0 is printed because that is the last value of discountedPrice in the loop and because it is a var scope doesn't matter.
 3) 150 it jist drops the decimal from discountedPrice
